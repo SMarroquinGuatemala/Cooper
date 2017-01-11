@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73B08640-8C1C-46DF-A605-B7E91C0E45C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Cooperativa.My.MyApplication</StartupObject>
+    <RootNamespace>Cooperativa</RootNamespace>
+    <AssemblyName>Cooperativa</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cooperativa.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cooperativa.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Shared.v12.2, Version=12.2.20122.1006, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.Misc.v12.2, Version=12.2.20122.1006, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinEditors.v12.2, Version=12.2.20122.1006, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinGrid.v12.2, Version=12.2.20122.1006, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinStatusBar.v12.2, Version=12.2.20122.1006, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinTabbedMdi.v12.2, Version=12.2.20122.1006, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinTabControl.v12.2, Version=12.2.20122.1006, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinToolbars.v12.2, Version=12.2.20122.1006, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.v12.2, Version=12.2.20122.1006, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Interop.Excel, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>dll\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Office, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>dll\Interop.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app_code\clsLaboresCostos.vb" />
+    <Compile Include="app_code\modFunciones.vb" />
+    <Compile Include="app_code\modVariablesGlobales.vb" />
+    <Compile Include="bin\Debug\Reportes\FrmListadoDeReportes.Designer.vb">
+      <DependentUpon>FrmListadoDeReportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bin\Debug\Reportes\FrmListadoDeReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bin\Debug\Reportes\FrmParametrosReportes.Designer.vb">
+      <DependentUpon>FrmParametrosReportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bin\Debug\Reportes\FrmParametrosReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bin\Debug\Reportes\FrmReportingServicesDisplay.Designer.vb">
+      <DependentUpon>FrmReportingServicesDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bin\Debug\Reportes\FrmReportingServicesDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSSolidarismo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSolidarismo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="form\FrmAdminisiones.Designer.vb">
+      <DependentUpon>FrmAdminisiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\FrmAdminisiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\FrmCambioFechaOperacion.Designer.vb">
+      <DependentUpon>FrmCambioFechaOperacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\FrmCambioFechaOperacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\FrmContabilidadSolicitud.designer.vb">
+      <DependentUpon>FrmContabilidadSolicitud.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\FrmContabilidadSolicitud.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\FrmFiltroSolicitudes.designer.vb">
+      <DependentUpon>FrmFiltroSolicitudes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\FrmFiltroSolicitudes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\FrmIntranet.Designer.vb">
+      <DependentUpon>FrmIntranet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\FrmIntranet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\FrmLov.designer.vb">
+      <DependentUpon>FrmLov.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\FrmLov.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\FrmPrestamos.Designer.vb">
+      <DependentUpon>FrmPrestamos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\FrmPrestamos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\FrmSolicitud.designer.vb">
+      <DependentUpon>FrmSolicitud.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\FrmSolicitud.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\FrmTransacciones.Designer.vb">
+      <DependentUpon>FrmTransacciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\FrmTransacciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\FrmViewer.Designer.vb">
+      <DependentUpon>FrmViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\FrmViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\Maestros\FrmCuentasContables.Designer.vb">
+      <DependentUpon>FrmCuentasContables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\Maestros\FrmCuentasContables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\Maestros\FrmProveedores.Designer.vb">
+      <DependentUpon>FrmProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\Maestros\FrmProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdiMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdiMenu.Designer.vb">
+      <DependentUpon>mdiMenu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reportes\FrmListadoDeReportes.Designer.vb">
+      <DependentUpon>FrmListadoDeReportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmListadoDeReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmParametrosReportes.Designer.vb">
+      <DependentUpon>FrmParametrosReportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmParametrosReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReportingServicesDisplay.Designer.vb">
+      <DependentUpon>FrmReportingServicesDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmReportingServicesDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bin\Debug\Reportes\FrmListadoDeReportes.resx">
+      <DependentUpon>FrmListadoDeReportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\Reportes\FrmParametrosReportes.resx">
+      <DependentUpon>FrmParametrosReportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\Reportes\FrmReportingServicesDisplay.resx">
+      <DependentUpon>FrmReportingServicesDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\Reportes\RptMovimientoRetencionesNomina.rdlc" />
+    <EmbeddedResource Include="form\FrmAdminisiones.resx">
+      <DependentUpon>FrmAdminisiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\FrmCambioFechaOperacion.resx">
+      <DependentUpon>FrmCambioFechaOperacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\FrmContabilidadSolicitud.resx">
+      <DependentUpon>FrmContabilidadSolicitud.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\FrmFiltroSolicitudes.resx">
+      <DependentUpon>FrmFiltroSolicitudes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\FrmIntranet.resx">
+      <DependentUpon>FrmIntranet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\FrmLov.resx">
+      <DependentUpon>FrmLov.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\FrmPrestamos.resx">
+      <DependentUpon>FrmPrestamos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\FrmSolicitud.resx">
+      <DependentUpon>FrmSolicitud.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\FrmTransacciones.resx">
+      <DependentUpon>FrmTransacciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\FrmViewer.resx">
+      <DependentUpon>FrmViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\Maestros\FrmCuentasContables.resx">
+      <DependentUpon>FrmCuentasContables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\Maestros\FrmProveedores.resx">
+      <DependentUpon>FrmProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdiMenu.resx">
+      <DependentUpon>mdiMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmAdminisiones.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmCambioFechaOperacion.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmContabilidadSolicitud.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmCuentasContables.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmFiltroSolicitudes.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmIntranet.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmLov.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmPrestamos.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmProveedores.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmSolicitud.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmTransacciones.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.FrmViewer.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.mdiMenu.resources" />
+    <EmbeddedResource Include="obj\Debug\Cooperativa.Resources.resources" />
+    <EmbeddedResource Include="Reportes\FrmListadoDeReportes.resx">
+      <DependentUpon>FrmListadoDeReportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmParametrosReportes.resx">
+      <DependentUpon>FrmParametrosReportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmReportingServicesDisplay.resx">
+      <DependentUpon>FrmReportingServicesDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PrestamosSocios.rdlc" />
+    <EmbeddedResource Include="Reportes\RptMovimientoRetencionesNomina.rdlc" />
+    <EmbeddedResource Include="Reportes\SaldosSocios.rdlc" />
+    <EmbeddedResource Include="Reportes\SaldosSociosRetencion.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Cooperativa.vshost.exe.config" />
+    <None Include="DSSolidarismo.xsc">
+      <DependentUpon>DSSolidarismo.xsd</DependentUpon>
+    </None>
+    <None Include="DSSolidarismo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSolidarismo.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DSSolidarismo.xss">
+      <DependentUpon>DSSolidarismo.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Cooperativa.vshost.exe" />
+    <Content Include="bin\Debug\ErrorLog.txt" />
+    <Content Include="dll\Interop.Excel.dll" />
+    <Content Include="dll\Interop.Office.dll" />
+    <Content Include="dll\TwainGui.dll" />
+    <Content Include="images\Bank-red-48.png" />
+    <Content Include="obj\Debug\cooperativa.exe.licenses" />
+    <Content Include="obj\Debug\Cooperativa.vbproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+    <Content Include="Resources\Doc-32.png" />
+    <Content Include="Resources\SearchTwo.png" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <None Include="obj\Debug\Cooperativa.vbproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\Cooperativa.vbprojResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="packages.config" />
+    <None Include="Resources\Gnome-Format-Justify-Right-48.png" />
+    <None Include="Resources\List_Nested-Vector-48.png" />
+    <None Include="Resources\Christmas-Date-48.png" />
+    <None Include="Resources\Sales-report-48.png" />
+    <None Include="Resources\Recycle-Refresh-simple-48.png" />
+    <None Include="Resources\Bank-grayscale-48.png" />
+    <None Include="Resources\Sales-by-payment-method-rep-48.png" />
+    <None Include="Resources\Banknotes-48.png" />
+    <None Include="Resources\Basket-grayscale-48.png" />
+    <None Include="Resources\Provider-48.png" />
+    <None Include="Resources\Approve-48.png" />
+    <None Include="Resources\Approve-64.png" />
+    <None Include="Resources\Document-64.png" />
+    <None Include="Resources\Search-64.png" />
+    <None Include="Resources\Gnome-Contact-New-48.png" />
+    <None Include="Resources\New File-48.png" />
+    <None Include="Resources\delete-48.png" />
+    <None Include="Resources\add-48.png" />
+    <None Include="Resources\Bank-blue-32.png" />
+    <None Include="Resources\Bank-blue-48.png" />
+    <None Include="Resources\Save_48.png" />
+    <None Include="Resources\Reports-48.png" />
+    <None Include="Resources\Shopcart-Add_48.png" />
+    <None Include="Resources\Male-User-Remove-48.png" />
+    <None Include="Resources\Add-male-user-48.png" />
+    <None Include="Resources\Personal-Loan-48.png" />
+    <None Include="Resources\Add-male-user-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CooperativaBLL\CooperativaBLL.vbproj">
+      <Project>{3e69204e-9cc9-4672-8714-9e8e16ccda97}</Project>
+      <Name>CooperativaBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\Library.vbproj">
+      <Project>{89e719d3-1706-432b-9843-72af11ca4939}</Project>
+      <Name>Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\es\" />
+    <Folder Include="bin\Debug\SqlServerTypes\x64\" />
+    <Folder Include="bin\Debug\SqlServerTypes\x86\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="SqlServerTypes\x64\" />
+    <Folder Include="SqlServerTypes\x86\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

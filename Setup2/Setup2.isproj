@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<!-- Select a Product Configuration -->
+		<InstallShieldProductConfiguration>Express</InstallShieldProductConfiguration>
+		<!-- Select a Visual Studio Configuration / InstallShield Release -->
+		<Configuration>Debug</Configuration>
+		<InstallShieldRelease>$(Configuration)</InstallShieldRelease>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- The InstallShieldProject item selects the project to build -->
+		<InstallShieldProject Include="$(MSBuildProjectDirectory)\$(MSBuildProjectName).isl"/>
+		<!-- The InstallShieldReleaseFlags sets Release Flags -->
+		<!--<InstallShieldReleaseFlags Include=""/>-->
+		<!-- The InstallShieldMergeModulePath specifies what directories are
+		searched for Merge Modules -->
+		<!--<InstallShieldMergeModulePath Include=""/>-->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The ProjectReference items refer to any Visual Studio solutions you want to automatically probe for Project Output Groups.  -->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The TaggedOutputs items allow you to explicitly add extra files to output groups. Each item must include both Name and OutputGroup, as well as TargetPath metadata values. -->
+		<!--<TaggedOutputs Include="C:\My Test Exe.exe">
+			<Name>My Test Project</Name>
+			<OutputGroup>Primary output</OutputGroup>
+			<TargetPath>My Test Exe.exe</TargetPath>
+		</TaggedOutputs> -->
+	</ItemGroup>
+	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2015Limited\InstallShield.targets"/>
+	<ItemGroup>
+		<ProjectReference Include="..\Cooperativa\Cooperativa.vbproj">
+			<Name>Cooperativa</Name>
+			<Project>{73B08640-8C1C-46DF-A605-B7E91C0E45C6}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\CooperativaBLL\CooperativaBLL.vbproj">
+			<Name>CooperativaBLL</Name>
+			<Project>{3E69204E-9CC9-4672-8714-9E8E16CCDA97}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\DataBase\DataBase.vbproj">
+			<Name>DataBase</Name>
+			<Project>{5BC163EA-E956-4D37-AD66-9DC0765F6526}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\Library\Library.vbproj">
+			<Name>Library</Name>
+			<Project>{89E719D3-1706-432B-9843-72AF11CA4939}</Project>
+		</ProjectReference>
+	</ItemGroup>
+</Project>
