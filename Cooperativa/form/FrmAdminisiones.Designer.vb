@@ -162,7 +162,278 @@ Partial Class FrmAdminisiones
         Me.GroupBoxDatosDeIndentificacion.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
+        '
+        'NumeroDeAsociadoLabel
+        '
+        NumeroDeAsociadoLabel.AutoSize = True
+        NumeroDeAsociadoLabel.Location = New System.Drawing.Point(852, 213)
+        NumeroDeAsociadoLabel.Name = "NumeroDeAsociadoLabel"
+        NumeroDeAsociadoLabel.Size = New System.Drawing.Size(111, 13)
+        NumeroDeAsociadoLabel.TabIndex = 586
+        NumeroDeAsociadoLabel.Text = "Numero De Asociado:"
+        '
+        'NumeroDeEmpleadoLabel
+        '
+        NumeroDeEmpleadoLabel.AutoSize = True
+        NumeroDeEmpleadoLabel.Location = New System.Drawing.Point(606, 287)
+        NumeroDeEmpleadoLabel.Name = "NumeroDeEmpleadoLabel"
+        NumeroDeEmpleadoLabel.Size = New System.Drawing.Size(114, 13)
+        NumeroDeEmpleadoLabel.TabIndex = 588
+        NumeroDeEmpleadoLabel.Text = "Numero De Empleado:"
+        '
+        'PrimerNombreLabel
+        '
+        PrimerNombreLabel.AutoSize = True
+        PrimerNombreLabel.Location = New System.Drawing.Point(503, 5)
+        PrimerNombreLabel.Name = "PrimerNombreLabel"
+        PrimerNombreLabel.Size = New System.Drawing.Size(107, 17)
+        PrimerNombreLabel.TabIndex = 590
+        PrimerNombreLabel.Text = "Primer Nombre:"
+        '
+        'SegundoNombreLabel
+        '
+        SegundoNombreLabel.AutoSize = True
+        SegundoNombreLabel.Location = New System.Drawing.Point(670, 5)
+        SegundoNombreLabel.Name = "SegundoNombreLabel"
+        SegundoNombreLabel.Size = New System.Drawing.Size(123, 17)
+        SegundoNombreLabel.TabIndex = 592
+        SegundoNombreLabel.Text = "Segundo Nombre:"
+        '
+        'NombresLabel
+        '
+        NombresLabel.AutoSize = True
+        NombresLabel.Location = New System.Drawing.Point(604, 308)
+        NombresLabel.Name = "NombresLabel"
+        NombresLabel.Size = New System.Drawing.Size(52, 13)
+        NombresLabel.TabIndex = 594
+        NombresLabel.Text = "Nombres:"
+        '
+        'PrimerApellidoLabel
+        '
+        PrimerApellidoLabel.AutoSize = True
+        PrimerApellidoLabel.Location = New System.Drawing.Point(3, 6)
+        PrimerApellidoLabel.Name = "PrimerApellidoLabel"
+        PrimerApellidoLabel.Size = New System.Drawing.Size(107, 17)
+        PrimerApellidoLabel.TabIndex = 596
+        PrimerApellidoLabel.Text = "Primer Apellido:"
+        '
+        'SegundoApellidoLabel
+        '
+        SegundoApellidoLabel.AutoSize = True
+        SegundoApellidoLabel.Location = New System.Drawing.Point(170, 5)
+        SegundoApellidoLabel.Name = "SegundoApellidoLabel"
+        SegundoApellidoLabel.Size = New System.Drawing.Size(123, 17)
+        SegundoApellidoLabel.TabIndex = 598
+        SegundoApellidoLabel.Text = "Segundo Apellido:"
+        '
+        'ApellidosLabel
+        '
+        ApellidosLabel.AutoSize = True
+        ApellidosLabel.Location = New System.Drawing.Point(852, 318)
+        ApellidosLabel.Name = "ApellidosLabel"
+        ApellidosLabel.Size = New System.Drawing.Size(52, 13)
+        ApellidosLabel.TabIndex = 600
+        ApellidosLabel.Text = "Apellidos:"
+        '
+        'NombreCompletoLabel
+        '
+        NombreCompletoLabel.AutoSize = True
+        NombreCompletoLabel.Location = New System.Drawing.Point(852, 344)
+        NombreCompletoLabel.Name = "NombreCompletoLabel"
+        NombreCompletoLabel.Size = New System.Drawing.Size(94, 13)
+        NombreCompletoLabel.TabIndex = 602
+        NombreCompletoLabel.Text = "Nombre Completo:"
+        '
+        'FechaDeNacimientoLabel
+        '
+        FechaDeNacimientoLabel.AutoSize = True
+        FechaDeNacimientoLabel.Location = New System.Drawing.Point(503, 52)
+        FechaDeNacimientoLabel.Name = "FechaDeNacimientoLabel"
+        FechaDeNacimientoLabel.Size = New System.Drawing.Size(147, 17)
+        FechaDeNacimientoLabel.TabIndex = 604
+        FechaDeNacimientoLabel.Text = "Fecha De Nacimiento:"
+        '
+        'LugarDeNacimientoLabel
+        '
+        LugarDeNacimientoLabel.AutoSize = True
+        LugarDeNacimientoLabel.Location = New System.Drawing.Point(588, 337)
+        LugarDeNacimientoLabel.Name = "LugarDeNacimientoLabel"
+        LugarDeNacimientoLabel.Size = New System.Drawing.Size(110, 13)
+        LugarDeNacimientoLabel.TabIndex = 606
+        LugarDeNacimientoLabel.Text = "Lugar De Nacimiento:"
+        '
+        'SexoLabel
+        '
+        SexoLabel.AutoSize = True
+        SexoLabel.Location = New System.Drawing.Point(670, 52)
+        SexoLabel.Name = "SexoLabel"
+        SexoLabel.Size = New System.Drawing.Size(60, 17)
+        SexoLabel.TabIndex = 608
+        SexoLabel.Text = "Genero:"
+        '
+        'NacionalidadLabel
+        '
+        NacionalidadLabel.AutoSize = True
+        NacionalidadLabel.Location = New System.Drawing.Point(3, 52)
+        NacionalidadLabel.Name = "NacionalidadLabel"
+        NacionalidadLabel.Size = New System.Drawing.Size(94, 17)
+        NacionalidadLabel.TabIndex = 610
+        NacionalidadLabel.Text = "Nacionalidad:"
+        '
+        'NitLabel
+        '
+        NitLabel.AutoSize = True
+        NitLabel.Location = New System.Drawing.Point(336, 52)
+        NitLabel.Name = "NitLabel"
+        NitLabel.Size = New System.Drawing.Size(29, 17)
+        NitLabel.TabIndex = 612
+        NitLabel.Text = "Nit:"
+        '
+        'DPILabel
+        '
+        DPILabel.AutoSize = True
+        DPILabel.Location = New System.Drawing.Point(170, 52)
+        DPILabel.Name = "DPILabel"
+        DPILabel.Size = New System.Drawing.Size(34, 17)
+        DPILabel.TabIndex = 614
+        DPILabel.Text = "DPI:"
+        '
+        'DepartamentoLabel
+        '
+        DepartamentoLabel.AutoSize = True
+        DepartamentoLabel.Location = New System.Drawing.Point(3, 6)
+        DepartamentoLabel.Name = "DepartamentoLabel"
+        DepartamentoLabel.Size = New System.Drawing.Size(102, 17)
+        DepartamentoLabel.TabIndex = 616
+        DepartamentoLabel.Text = "Departamento:"
+        '
+        'MunicipioLabel
+        '
+        MunicipioLabel.AutoSize = True
+        MunicipioLabel.Location = New System.Drawing.Point(170, 6)
+        MunicipioLabel.Name = "MunicipioLabel"
+        MunicipioLabel.Size = New System.Drawing.Size(71, 17)
+        MunicipioLabel.TabIndex = 618
+        MunicipioLabel.Text = "Municipio:"
+        '
+        'ComunidadLabel
+        '
+        ComunidadLabel.AutoSize = True
+        ComunidadLabel.Location = New System.Drawing.Point(336, 6)
+        ComunidadLabel.Name = "ComunidadLabel"
+        ComunidadLabel.Size = New System.Drawing.Size(83, 17)
+        ComunidadLabel.TabIndex = 620
+        ComunidadLabel.Text = "Comunidad:"
+        '
+        'DireccionLabel
+        '
+        DireccionLabel.AutoSize = True
+        DireccionLabel.Location = New System.Drawing.Point(503, 6)
+        DireccionLabel.Name = "DireccionLabel"
+        DireccionLabel.Size = New System.Drawing.Size(71, 17)
+        DireccionLabel.TabIndex = 622
+        DireccionLabel.Text = "Direccion:"
+        '
+        'EstadoCivilLabel
+        '
+        EstadoCivilLabel.AutoSize = True
+        EstadoCivilLabel.Location = New System.Drawing.Point(670, 6)
+        EstadoCivilLabel.Name = "EstadoCivilLabel"
+        EstadoCivilLabel.Size = New System.Drawing.Size(85, 17)
+        EstadoCivilLabel.TabIndex = 624
+        EstadoCivilLabel.Text = "Estado Civil:"
+        '
+        'DepartamentoEmpresaLabel
+        '
+        DepartamentoEmpresaLabel.AutoSize = True
+        DepartamentoEmpresaLabel.Location = New System.Drawing.Point(608, 363)
+        DepartamentoEmpresaLabel.Name = "DepartamentoEmpresaLabel"
+        DepartamentoEmpresaLabel.Size = New System.Drawing.Size(121, 13)
+        DepartamentoEmpresaLabel.TabIndex = 626
+        DepartamentoEmpresaLabel.Text = "Departamento Empresa:"
+        '
+        'FechaDeIngresoLabel
+        '
+        FechaDeIngresoLabel.AutoSize = True
+        FechaDeIngresoLabel.Location = New System.Drawing.Point(608, 390)
+        FechaDeIngresoLabel.Name = "FechaDeIngresoLabel"
+        FechaDeIngresoLabel.Size = New System.Drawing.Size(95, 13)
+        FechaDeIngresoLabel.TabIndex = 628
+        FechaDeIngresoLabel.Text = "Fecha De Ingreso:"
+        '
+        'FechaDeEgresoLabel
+        '
+        FechaDeEgresoLabel.AutoSize = True
+        FechaDeEgresoLabel.Location = New System.Drawing.Point(608, 416)
+        FechaDeEgresoLabel.Name = "FechaDeEgresoLabel"
+        FechaDeEgresoLabel.Size = New System.Drawing.Size(93, 13)
+        FechaDeEgresoLabel.TabIndex = 630
+        FechaDeEgresoLabel.Text = "Fecha De Egreso:"
+        '
+        'PlanillaLabel
+        '
+        PlanillaLabel.AutoSize = True
+        PlanillaLabel.Location = New System.Drawing.Point(608, 442)
+        PlanillaLabel.Name = "PlanillaLabel"
+        PlanillaLabel.Size = New System.Drawing.Size(43, 13)
+        PlanillaLabel.TabIndex = 632
+        PlanillaLabel.Text = "Planilla:"
+        '
+        'TipoDePlanillaLabel
+        '
+        TipoDePlanillaLabel.AutoSize = True
+        TipoDePlanillaLabel.Location = New System.Drawing.Point(608, 469)
+        TipoDePlanillaLabel.Name = "TipoDePlanillaLabel"
+        TipoDePlanillaLabel.Size = New System.Drawing.Size(84, 13)
+        TipoDePlanillaLabel.TabIndex = 634
+        TipoDePlanillaLabel.Text = "Tipo De Planilla:"
+        '
+        'CatorcenalLabel
+        '
+        CatorcenalLabel.AutoSize = True
+        CatorcenalLabel.Location = New System.Drawing.Point(608, 496)
+        CatorcenalLabel.Name = "CatorcenalLabel"
+        CatorcenalLabel.Size = New System.Drawing.Size(61, 13)
+        CatorcenalLabel.TabIndex = 636
+        CatorcenalLabel.Text = "Catorcenal:"
+        '
+        'IsActivoLabel
+        '
+        IsActivoLabel.AutoSize = True
+        IsActivoLabel.Location = New System.Drawing.Point(608, 524)
+        IsActivoLabel.Name = "IsActivoLabel"
+        IsActivoLabel.Size = New System.Drawing.Size(50, 13)
+        IsActivoLabel.TabIndex = 638
+        IsActivoLabel.Text = "is Activo:"
+        '
+        'IDTiposDeTelefonoLabel
+        '
+        IDTiposDeTelefonoLabel.AutoSize = True
+        IDTiposDeTelefonoLabel.Location = New System.Drawing.Point(3, 53)
+        IDTiposDeTelefonoLabel.Name = "IDTiposDeTelefonoLabel"
+        IDTiposDeTelefonoLabel.Size = New System.Drawing.Size(142, 17)
+        IDTiposDeTelefonoLabel.TabIndex = 639
+        IDTiposDeTelefonoLabel.Text = "IDTipos De Telefono:"
+        '
+        'NumeroTelefonoLabel
+        '
+        NumeroTelefonoLabel.AutoSize = True
+        NumeroTelefonoLabel.Location = New System.Drawing.Point(291, 80)
+        NumeroTelefonoLabel.Name = "NumeroTelefonoLabel"
+        NumeroTelefonoLabel.Size = New System.Drawing.Size(122, 17)
+        NumeroTelefonoLabel.TabIndex = 641
+        NumeroTelefonoLabel.Text = "Numero Telefono:"
+        '
+        'ApellidoLabel
+        '
+        ApellidoLabel.AutoSize = True
+        ApellidoLabel.Location = New System.Drawing.Point(336, 5)
+        ApellidoLabel.Name = "ApellidoLabel"
+        ApellidoLabel.Size = New System.Drawing.Size(136, 17)
+        ApellidoLabel.TabIndex = 599
+        ApellidoLabel.Text = "Apellido De Casada:"
         '
         'lbl
         '
@@ -189,7 +460,7 @@ Partial Class FrmAdminisiones
         Me.grbBeneficiarios.Controls.Add(Me.Label6)
         Me.grbBeneficiarios.Controls.Add(Me.grdBeneficiarios)
         Me.grbBeneficiarios.Enabled = False
-        Me.grbBeneficiarios.Location = New System.Drawing.Point(12, 339)
+        Me.grbBeneficiarios.Location = New System.Drawing.Point(12, 393)
         Me.grbBeneficiarios.Name = "grbBeneficiarios"
         Me.grbBeneficiarios.Size = New System.Drawing.Size(569, 195)
         Me.grbBeneficiarios.TabIndex = 10
@@ -412,7 +683,7 @@ Partial Class FrmAdminisiones
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 243)
+        Me.Label2.Location = New System.Drawing.Point(15, 291)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(52, 13)
         Me.Label2.TabIndex = 574
@@ -421,7 +692,7 @@ Partial Class FrmAdminisiones
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(85, 286)
+        Me.Label3.Location = New System.Drawing.Point(85, 340)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(49, 13)
         Me.Label3.TabIndex = 575
@@ -430,7 +701,7 @@ Partial Class FrmAdminisiones
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(148, 286)
+        Me.Label4.Location = New System.Drawing.Point(148, 340)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(34, 13)
         Me.Label4.TabIndex = 576
@@ -439,7 +710,7 @@ Partial Class FrmAdminisiones
         'cndNuevo
         '
         Me.cndNuevo.Image = Global.Cooperativa.My.Resources.Resources.Gnome_Contact_New_48
-        Me.cndNuevo.Location = New System.Drawing.Point(366, 282)
+        Me.cndNuevo.Location = New System.Drawing.Point(366, 343)
         Me.cndNuevo.Name = "cndNuevo"
         Me.cndNuevo.Size = New System.Drawing.Size(58, 51)
         Me.cndNuevo.TabIndex = 9
@@ -449,7 +720,7 @@ Partial Class FrmAdminisiones
         'cmdGrabar
         '
         Me.cmdGrabar.Image = Global.Cooperativa.My.Resources.Resources.Save_48
-        Me.cmdGrabar.Location = New System.Drawing.Point(249, 282)
+        Me.cmdGrabar.Location = New System.Drawing.Point(249, 343)
         Me.cmdGrabar.Name = "cmdGrabar"
         Me.cmdGrabar.Size = New System.Drawing.Size(58, 51)
         Me.cmdGrabar.TabIndex = 7
@@ -459,7 +730,7 @@ Partial Class FrmAdminisiones
         'cmdReporte
         '
         Me.cmdReporte.Image = Global.Cooperativa.My.Resources.Resources.Reports_48
-        Me.cmdReporte.Location = New System.Drawing.Point(306, 282)
+        Me.cmdReporte.Location = New System.Drawing.Point(306, 343)
         Me.cmdReporte.Name = "cmdReporte"
         Me.cmdReporte.Size = New System.Drawing.Size(61, 51)
         Me.cmdReporte.TabIndex = 8
@@ -480,7 +751,7 @@ Partial Class FrmAdminisiones
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(12, 286)
+        Me.Label5.Location = New System.Drawing.Point(12, 340)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(37, 13)
         Me.Label5.TabIndex = 582
@@ -489,7 +760,7 @@ Partial Class FrmAdminisiones
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(346, 240)
+        Me.Label9.Location = New System.Drawing.Point(346, 294)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(35, 13)
         Me.Label9.TabIndex = 583
@@ -498,7 +769,7 @@ Partial Class FrmAdminisiones
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(187, 286)
+        Me.Label10.Location = New System.Drawing.Point(187, 340)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(39, 13)
         Me.Label10.TabIndex = 585
@@ -514,7 +785,7 @@ Partial Class FrmAdminisiones
         Me.txtSalario.BordesRedondeados = False
         Me.txtSalario.CantidadDecimales = CType(2, Short)
         Me.txtSalario.CantidadEnteros = CType(15, Short)
-        Me.txtSalario.Location = New System.Drawing.Point(185, 302)
+        Me.txtSalario.Location = New System.Drawing.Point(185, 356)
         Me.txtSalario.MaxLength = 12
         Me.txtSalario.Name = "txtSalario"
         Me.txtSalario.NavegarConEnter = True
@@ -537,7 +808,7 @@ Partial Class FrmAdminisiones
         Me.txtCapital.BordesRedondeados = False
         Me.txtCapital.CantidadDecimales = CType(2, Short)
         Me.txtCapital.CantidadEnteros = CType(15, Short)
-        Me.txtCapital.Location = New System.Drawing.Point(344, 256)
+        Me.txtCapital.Location = New System.Drawing.Point(344, 310)
         Me.txtCapital.MaxLength = 12
         Me.txtCapital.Name = "txtCapital"
         Me.txtCapital.NavegarConEnter = True
@@ -553,7 +824,7 @@ Partial Class FrmAdminisiones
         'txtFecha
         '
         Me.txtFecha.BackColor = System.Drawing.Color.LemonChiffon
-        Me.txtFecha.Location = New System.Drawing.Point(15, 302)
+        Me.txtFecha.Location = New System.Drawing.Point(15, 356)
         Me.txtFecha.Mask = "00/00/0000"
         Me.txtFecha.Name = "txtFecha"
         Me.txtFecha.NavegarConEnter = True
@@ -572,7 +843,7 @@ Partial Class FrmAdminisiones
         Me.txtPlanilla.BordesRedondeados = False
         Me.txtPlanilla.CantidadDecimales = CType(2, Short)
         Me.txtPlanilla.CantidadEnteros = CType(15, Short)
-        Me.txtPlanilla.Location = New System.Drawing.Point(146, 302)
+        Me.txtPlanilla.Location = New System.Drawing.Point(146, 356)
         Me.txtPlanilla.MaxLength = 2
         Me.txtPlanilla.Name = "txtPlanilla"
         Me.txtPlanilla.NavegarConEnter = True
@@ -595,7 +866,7 @@ Partial Class FrmAdminisiones
         Me.txtTelefono.BordesRedondeados = False
         Me.txtTelefono.CantidadDecimales = CType(2, Short)
         Me.txtTelefono.CantidadEnteros = CType(15, Short)
-        Me.txtTelefono.Location = New System.Drawing.Point(85, 302)
+        Me.txtTelefono.Location = New System.Drawing.Point(85, 356)
         Me.txtTelefono.MaxLength = 8
         Me.txtTelefono.Name = "txtTelefono"
         Me.txtTelefono.NavegarConEnter = True
@@ -617,7 +888,7 @@ Partial Class FrmAdminisiones
         Me.txtDireccion.BordesRedondeados = False
         Me.txtDireccion.CantidadDecimales = CType(2, Short)
         Me.txtDireccion.CantidadEnteros = CType(15, Short)
-        Me.txtDireccion.Location = New System.Drawing.Point(12, 256)
+        Me.txtDireccion.Location = New System.Drawing.Point(9, 310)
         Me.txtDireccion.MaxLength = 80
         Me.txtDireccion.Name = "txtDireccion"
         Me.txtDireccion.NavegarConEnter = True
@@ -685,20 +956,11 @@ Partial Class FrmAdminisiones
         Me.pcbCategoria.TabIndex = 567
         Me.pcbCategoria.TabStop = False
         '
-        'NumeroDeAsociadoLabel
-        '
-        NumeroDeAsociadoLabel.AutoSize = True
-        NumeroDeAsociadoLabel.Location = New System.Drawing.Point(599, 214)
-        NumeroDeAsociadoLabel.Name = "NumeroDeAsociadoLabel"
-        NumeroDeAsociadoLabel.Size = New System.Drawing.Size(111, 13)
-        NumeroDeAsociadoLabel.TabIndex = 586
-        NumeroDeAsociadoLabel.Text = "Numero De Asociado:"
-        '
         'NumeroDeAsociadoTextBoxSD
         '
         Me.NumeroDeAsociadoTextBoxSD.BackColor = System.Drawing.Color.White
         Me.NumeroDeAsociadoTextBoxSD.FormatInput = UserWindowsControlLibrary.TextBoxSD.InputFormat.InputString
-        Me.NumeroDeAsociadoTextBoxSD.Location = New System.Drawing.Point(726, 211)
+        Me.NumeroDeAsociadoTextBoxSD.Location = New System.Drawing.Point(979, 210)
         Me.NumeroDeAsociadoTextBoxSD.Name = "NumeroDeAsociadoTextBoxSD"
         Me.NumeroDeAsociadoTextBoxSD.NumberDecimal = 0
         Me.NumeroDeAsociadoTextBoxSD.Size = New System.Drawing.Size(121, 20)
@@ -707,20 +969,11 @@ Partial Class FrmAdminisiones
         Me.NumeroDeAsociadoTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.NumeroDeAsociadoTextBoxSD.ValidField = False
         '
-        'NumeroDeEmpleadoLabel
-        '
-        NumeroDeEmpleadoLabel.AutoSize = True
-        NumeroDeEmpleadoLabel.Location = New System.Drawing.Point(599, 240)
-        NumeroDeEmpleadoLabel.Name = "NumeroDeEmpleadoLabel"
-        NumeroDeEmpleadoLabel.Size = New System.Drawing.Size(114, 13)
-        NumeroDeEmpleadoLabel.TabIndex = 588
-        NumeroDeEmpleadoLabel.Text = "Numero De Empleado:"
-        '
         'NumeroDeEmpleadoTextBoxSD
         '
         Me.NumeroDeEmpleadoTextBoxSD.BackColor = System.Drawing.Color.White
         Me.NumeroDeEmpleadoTextBoxSD.FormatInput = UserWindowsControlLibrary.TextBoxSD.InputFormat.InputString
-        Me.NumeroDeEmpleadoTextBoxSD.Location = New System.Drawing.Point(726, 237)
+        Me.NumeroDeEmpleadoTextBoxSD.Location = New System.Drawing.Point(733, 284)
         Me.NumeroDeEmpleadoTextBoxSD.Name = "NumeroDeEmpleadoTextBoxSD"
         Me.NumeroDeEmpleadoTextBoxSD.NumberDecimal = 0
         Me.NumeroDeEmpleadoTextBoxSD.Size = New System.Drawing.Size(121, 20)
@@ -728,15 +981,6 @@ Partial Class FrmAdminisiones
         Me.NumeroDeEmpleadoTextBoxSD.TabIndex = 589
         Me.NumeroDeEmpleadoTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.NumeroDeEmpleadoTextBoxSD.ValidField = False
-        '
-        'PrimerNombreLabel
-        '
-        PrimerNombreLabel.AutoSize = True
-        PrimerNombreLabel.Location = New System.Drawing.Point(503, 5)
-        PrimerNombreLabel.Name = "PrimerNombreLabel"
-        PrimerNombreLabel.Size = New System.Drawing.Size(107, 17)
-        PrimerNombreLabel.TabIndex = 590
-        PrimerNombreLabel.Text = "Primer Nombre:"
         '
         'PrimerNombreTextBoxSD
         '
@@ -751,15 +995,6 @@ Partial Class FrmAdminisiones
         Me.PrimerNombreTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.PrimerNombreTextBoxSD.ValidField = False
         '
-        'SegundoNombreLabel
-        '
-        SegundoNombreLabel.AutoSize = True
-        SegundoNombreLabel.Location = New System.Drawing.Point(670, 5)
-        SegundoNombreLabel.Name = "SegundoNombreLabel"
-        SegundoNombreLabel.Size = New System.Drawing.Size(123, 17)
-        SegundoNombreLabel.TabIndex = 592
-        SegundoNombreLabel.Text = "Segundo Nombre:"
-        '
         'SegundoNombreTextBoxSD
         '
         Me.SegundoNombreTextBoxSD.BackColor = System.Drawing.Color.White
@@ -773,20 +1008,11 @@ Partial Class FrmAdminisiones
         Me.SegundoNombreTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.SegundoNombreTextBoxSD.ValidField = False
         '
-        'NombresLabel
-        '
-        NombresLabel.AutoSize = True
-        NombresLabel.Location = New System.Drawing.Point(597, 261)
-        NombresLabel.Name = "NombresLabel"
-        NombresLabel.Size = New System.Drawing.Size(52, 13)
-        NombresLabel.TabIndex = 594
-        NombresLabel.Text = "Nombres:"
-        '
         'NombresTextBoxSD
         '
         Me.NombresTextBoxSD.BackColor = System.Drawing.Color.White
         Me.NombresTextBoxSD.FormatInput = UserWindowsControlLibrary.TextBoxSD.InputFormat.InputString
-        Me.NombresTextBoxSD.Location = New System.Drawing.Point(724, 258)
+        Me.NombresTextBoxSD.Location = New System.Drawing.Point(731, 305)
         Me.NombresTextBoxSD.Name = "NombresTextBoxSD"
         Me.NombresTextBoxSD.NumberDecimal = 0
         Me.NombresTextBoxSD.Size = New System.Drawing.Size(121, 20)
@@ -794,15 +1020,6 @@ Partial Class FrmAdminisiones
         Me.NombresTextBoxSD.TabIndex = 595
         Me.NombresTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.NombresTextBoxSD.ValidField = False
-        '
-        'PrimerApellidoLabel
-        '
-        PrimerApellidoLabel.AutoSize = True
-        PrimerApellidoLabel.Location = New System.Drawing.Point(3, 6)
-        PrimerApellidoLabel.Name = "PrimerApellidoLabel"
-        PrimerApellidoLabel.Size = New System.Drawing.Size(107, 17)
-        PrimerApellidoLabel.TabIndex = 596
-        PrimerApellidoLabel.Text = "Primer Apellido:"
         '
         'PrimerApellidoTextBoxSD
         '
@@ -818,15 +1035,6 @@ Partial Class FrmAdminisiones
         Me.PrimerApellidoTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.PrimerApellidoTextBoxSD.ValidField = False
         '
-        'SegundoApellidoLabel
-        '
-        SegundoApellidoLabel.AutoSize = True
-        SegundoApellidoLabel.Location = New System.Drawing.Point(170, 5)
-        SegundoApellidoLabel.Name = "SegundoApellidoLabel"
-        SegundoApellidoLabel.Size = New System.Drawing.Size(123, 17)
-        SegundoApellidoLabel.TabIndex = 598
-        SegundoApellidoLabel.Text = "Segundo Apellido:"
-        '
         'SegundoApellidoTextBoxSD
         '
         Me.SegundoApellidoTextBoxSD.BackColor = System.Drawing.Color.White
@@ -840,20 +1048,11 @@ Partial Class FrmAdminisiones
         Me.SegundoApellidoTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.SegundoApellidoTextBoxSD.ValidField = False
         '
-        'ApellidosLabel
-        '
-        ApellidosLabel.AutoSize = True
-        ApellidosLabel.Location = New System.Drawing.Point(852, 286)
-        ApellidosLabel.Name = "ApellidosLabel"
-        ApellidosLabel.Size = New System.Drawing.Size(52, 13)
-        ApellidosLabel.TabIndex = 600
-        ApellidosLabel.Text = "Apellidos:"
-        '
         'ApellidosTextBoxSD
         '
         Me.ApellidosTextBoxSD.BackColor = System.Drawing.Color.White
         Me.ApellidosTextBoxSD.FormatInput = UserWindowsControlLibrary.TextBoxSD.InputFormat.InputString
-        Me.ApellidosTextBoxSD.Location = New System.Drawing.Point(979, 283)
+        Me.ApellidosTextBoxSD.Location = New System.Drawing.Point(979, 315)
         Me.ApellidosTextBoxSD.Name = "ApellidosTextBoxSD"
         Me.ApellidosTextBoxSD.NumberDecimal = 0
         Me.ApellidosTextBoxSD.Size = New System.Drawing.Size(121, 20)
@@ -862,20 +1061,11 @@ Partial Class FrmAdminisiones
         Me.ApellidosTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.ApellidosTextBoxSD.ValidField = False
         '
-        'NombreCompletoLabel
-        '
-        NombreCompletoLabel.AutoSize = True
-        NombreCompletoLabel.Location = New System.Drawing.Point(852, 312)
-        NombreCompletoLabel.Name = "NombreCompletoLabel"
-        NombreCompletoLabel.Size = New System.Drawing.Size(94, 13)
-        NombreCompletoLabel.TabIndex = 602
-        NombreCompletoLabel.Text = "Nombre Completo:"
-        '
         'NombreCompletoTextBoxSD
         '
         Me.NombreCompletoTextBoxSD.BackColor = System.Drawing.Color.White
         Me.NombreCompletoTextBoxSD.FormatInput = UserWindowsControlLibrary.TextBoxSD.InputFormat.InputString
-        Me.NombreCompletoTextBoxSD.Location = New System.Drawing.Point(979, 309)
+        Me.NombreCompletoTextBoxSD.Location = New System.Drawing.Point(979, 341)
         Me.NombreCompletoTextBoxSD.Name = "NombreCompletoTextBoxSD"
         Me.NombreCompletoTextBoxSD.NumberDecimal = 0
         Me.NombreCompletoTextBoxSD.Size = New System.Drawing.Size(121, 20)
@@ -883,15 +1073,6 @@ Partial Class FrmAdminisiones
         Me.NombreCompletoTextBoxSD.TabIndex = 603
         Me.NombreCompletoTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.NombreCompletoTextBoxSD.ValidField = False
-        '
-        'FechaDeNacimientoLabel
-        '
-        FechaDeNacimientoLabel.AutoSize = True
-        FechaDeNacimientoLabel.Location = New System.Drawing.Point(503, 52)
-        FechaDeNacimientoLabel.Name = "FechaDeNacimientoLabel"
-        FechaDeNacimientoLabel.Size = New System.Drawing.Size(147, 17)
-        FechaDeNacimientoLabel.TabIndex = 604
-        FechaDeNacimientoLabel.Text = "Fecha De Nacimiento:"
         '
         'FechaDeNacimientoMaskedTextBoxSD
         '
@@ -906,20 +1087,11 @@ Partial Class FrmAdminisiones
         Me.FechaDeNacimientoMaskedTextBoxSD.TypeField = UserWindowsControlLibrary.MaskedTextBoxSD.TiposDeCampo.Personalizado
         Me.FechaDeNacimientoMaskedTextBoxSD.ValidatingType = GetType(Date)
         '
-        'LugarDeNacimientoLabel
-        '
-        LugarDeNacimientoLabel.AutoSize = True
-        LugarDeNacimientoLabel.Location = New System.Drawing.Point(581, 290)
-        LugarDeNacimientoLabel.Name = "LugarDeNacimientoLabel"
-        LugarDeNacimientoLabel.Size = New System.Drawing.Size(110, 13)
-        LugarDeNacimientoLabel.TabIndex = 606
-        LugarDeNacimientoLabel.Text = "Lugar De Nacimiento:"
-        '
         'LugarDeNacimientoTextBoxSD
         '
         Me.LugarDeNacimientoTextBoxSD.BackColor = System.Drawing.Color.White
         Me.LugarDeNacimientoTextBoxSD.FormatInput = UserWindowsControlLibrary.TextBoxSD.InputFormat.InputString
-        Me.LugarDeNacimientoTextBoxSD.Location = New System.Drawing.Point(708, 287)
+        Me.LugarDeNacimientoTextBoxSD.Location = New System.Drawing.Point(715, 334)
         Me.LugarDeNacimientoTextBoxSD.Name = "LugarDeNacimientoTextBoxSD"
         Me.LugarDeNacimientoTextBoxSD.NumberDecimal = 0
         Me.LugarDeNacimientoTextBoxSD.Size = New System.Drawing.Size(121, 20)
@@ -927,15 +1099,6 @@ Partial Class FrmAdminisiones
         Me.LugarDeNacimientoTextBoxSD.TabIndex = 607
         Me.LugarDeNacimientoTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.LugarDeNacimientoTextBoxSD.ValidField = False
-        '
-        'SexoLabel
-        '
-        SexoLabel.AutoSize = True
-        SexoLabel.Location = New System.Drawing.Point(670, 52)
-        SexoLabel.Name = "SexoLabel"
-        SexoLabel.Size = New System.Drawing.Size(60, 17)
-        SexoLabel.TabIndex = 608
-        SexoLabel.Text = "Genero:"
         '
         'SexoComboBoxSD
         '
@@ -963,15 +1126,6 @@ Partial Class FrmAdminisiones
         Me.SexoComboBoxSD.User = Nothing
         Me.SexoComboBoxSD.ValidField = False
         '
-        'NacionalidadLabel
-        '
-        NacionalidadLabel.AutoSize = True
-        NacionalidadLabel.Location = New System.Drawing.Point(3, 52)
-        NacionalidadLabel.Name = "NacionalidadLabel"
-        NacionalidadLabel.Size = New System.Drawing.Size(94, 17)
-        NacionalidadLabel.TabIndex = 610
-        NacionalidadLabel.Text = "Nacionalidad:"
-        '
         'NacionalidadComboBoxSD
         '
         Me.NacionalidadComboBoxSD.AddAll = False
@@ -998,15 +1152,6 @@ Partial Class FrmAdminisiones
         Me.NacionalidadComboBoxSD.User = Nothing
         Me.NacionalidadComboBoxSD.ValidField = False
         '
-        'NitLabel
-        '
-        NitLabel.AutoSize = True
-        NitLabel.Location = New System.Drawing.Point(336, 52)
-        NitLabel.Name = "NitLabel"
-        NitLabel.Size = New System.Drawing.Size(29, 17)
-        NitLabel.TabIndex = 612
-        NitLabel.Text = "Nit:"
-        '
         'NitTextBoxSD
         '
         Me.NitTextBoxSD.BackColor = System.Drawing.Color.White
@@ -1020,15 +1165,6 @@ Partial Class FrmAdminisiones
         Me.NitTextBoxSD.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NitTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.NitTextBoxSD.ValidField = False
-        '
-        'DPILabel
-        '
-        DPILabel.AutoSize = True
-        DPILabel.Location = New System.Drawing.Point(170, 52)
-        DPILabel.Name = "DPILabel"
-        DPILabel.Size = New System.Drawing.Size(34, 17)
-        DPILabel.TabIndex = 614
-        DPILabel.Text = "DPI:"
         '
         'DPITextBoxSD
         '
@@ -1044,15 +1180,6 @@ Partial Class FrmAdminisiones
         Me.DPITextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.DPITextBoxSD.ValidField = False
         '
-        'DepartamentoLabel
-        '
-        DepartamentoLabel.AutoSize = True
-        DepartamentoLabel.Location = New System.Drawing.Point(581, 422)
-        DepartamentoLabel.Name = "DepartamentoLabel"
-        DepartamentoLabel.Size = New System.Drawing.Size(77, 13)
-        DepartamentoLabel.TabIndex = 616
-        DepartamentoLabel.Text = "Departamento:"
-        '
         'DepartamentoComboBoxSD
         '
         Me.DepartamentoComboBoxSD.AddAll = False
@@ -1064,13 +1191,13 @@ Partial Class FrmAdminisiones
         Me.DepartamentoComboBoxSD.Conditions = Nothing
         Me.DepartamentoComboBoxSD.DataBase = "DbRecursosHumanos"
         Me.DepartamentoComboBoxSD.FormattingEnabled = True
-        Me.DepartamentoComboBoxSD.Location = New System.Drawing.Point(708, 419)
+        Me.DepartamentoComboBoxSD.Location = New System.Drawing.Point(6, 26)
         Me.DepartamentoComboBoxSD.Name = "DepartamentoComboBoxSD"
         Me.DepartamentoComboBoxSD.NumberOfZeros = 0
         Me.DepartamentoComboBoxSD.Objects = UserWindowsControlLibrary.ComboBoxSD.TypeObjects.Table
         Me.DepartamentoComboBoxSD.OrderBy = Nothing
         Me.DepartamentoComboBoxSD.ShowFindDialog = True
-        Me.DepartamentoComboBoxSD.Size = New System.Drawing.Size(121, 21)
+        Me.DepartamentoComboBoxSD.Size = New System.Drawing.Size(158, 24)
         Me.DepartamentoComboBoxSD.TabEnter = True
         Me.DepartamentoComboBoxSD.TabIndex = 617
         Me.DepartamentoComboBoxSD.Table = Nothing
@@ -1078,15 +1205,6 @@ Partial Class FrmAdminisiones
         Me.DepartamentoComboBoxSD.TypeField = UserWindowsControlLibrary.ComboBoxSD.TiposDeCampo.Personalizado
         Me.DepartamentoComboBoxSD.User = Nothing
         Me.DepartamentoComboBoxSD.ValidField = False
-        '
-        'MunicipioLabel
-        '
-        MunicipioLabel.AutoSize = True
-        MunicipioLabel.Location = New System.Drawing.Point(581, 449)
-        MunicipioLabel.Name = "MunicipioLabel"
-        MunicipioLabel.Size = New System.Drawing.Size(55, 13)
-        MunicipioLabel.TabIndex = 618
-        MunicipioLabel.Text = "Municipio:"
         '
         'MunicipioComboBoxSD
         '
@@ -1099,13 +1217,13 @@ Partial Class FrmAdminisiones
         Me.MunicipioComboBoxSD.Conditions = Nothing
         Me.MunicipioComboBoxSD.DataBase = "DbRecursosHumanos"
         Me.MunicipioComboBoxSD.FormattingEnabled = True
-        Me.MunicipioComboBoxSD.Location = New System.Drawing.Point(708, 446)
+        Me.MunicipioComboBoxSD.Location = New System.Drawing.Point(170, 26)
         Me.MunicipioComboBoxSD.Name = "MunicipioComboBoxSD"
         Me.MunicipioComboBoxSD.NumberOfZeros = 0
         Me.MunicipioComboBoxSD.Objects = UserWindowsControlLibrary.ComboBoxSD.TypeObjects.Table
         Me.MunicipioComboBoxSD.OrderBy = Nothing
         Me.MunicipioComboBoxSD.ShowFindDialog = True
-        Me.MunicipioComboBoxSD.Size = New System.Drawing.Size(121, 21)
+        Me.MunicipioComboBoxSD.Size = New System.Drawing.Size(161, 24)
         Me.MunicipioComboBoxSD.TabEnter = True
         Me.MunicipioComboBoxSD.TabIndex = 619
         Me.MunicipioComboBoxSD.Table = Nothing
@@ -1113,15 +1231,6 @@ Partial Class FrmAdminisiones
         Me.MunicipioComboBoxSD.TypeField = UserWindowsControlLibrary.ComboBoxSD.TiposDeCampo.Personalizado
         Me.MunicipioComboBoxSD.User = Nothing
         Me.MunicipioComboBoxSD.ValidField = False
-        '
-        'ComunidadLabel
-        '
-        ComunidadLabel.AutoSize = True
-        ComunidadLabel.Location = New System.Drawing.Point(581, 476)
-        ComunidadLabel.Name = "ComunidadLabel"
-        ComunidadLabel.Size = New System.Drawing.Size(63, 13)
-        ComunidadLabel.TabIndex = 620
-        ComunidadLabel.Text = "Comunidad:"
         '
         'ComunidadComboBoxSD
         '
@@ -1134,13 +1243,13 @@ Partial Class FrmAdminisiones
         Me.ComunidadComboBoxSD.Conditions = Nothing
         Me.ComunidadComboBoxSD.DataBase = "DbRecursosHumanos"
         Me.ComunidadComboBoxSD.FormattingEnabled = True
-        Me.ComunidadComboBoxSD.Location = New System.Drawing.Point(708, 473)
+        Me.ComunidadComboBoxSD.Location = New System.Drawing.Point(336, 26)
         Me.ComunidadComboBoxSD.Name = "ComunidadComboBoxSD"
         Me.ComunidadComboBoxSD.NumberOfZeros = 0
         Me.ComunidadComboBoxSD.Objects = UserWindowsControlLibrary.ComboBoxSD.TypeObjects.Table
         Me.ComunidadComboBoxSD.OrderBy = Nothing
         Me.ComunidadComboBoxSD.ShowFindDialog = True
-        Me.ComunidadComboBoxSD.Size = New System.Drawing.Size(121, 21)
+        Me.ComunidadComboBoxSD.Size = New System.Drawing.Size(161, 24)
         Me.ComunidadComboBoxSD.TabEnter = True
         Me.ComunidadComboBoxSD.TabIndex = 621
         Me.ComunidadComboBoxSD.Table = Nothing
@@ -1149,36 +1258,18 @@ Partial Class FrmAdminisiones
         Me.ComunidadComboBoxSD.User = Nothing
         Me.ComunidadComboBoxSD.ValidField = False
         '
-        'DireccionLabel
-        '
-        DireccionLabel.AutoSize = True
-        DireccionLabel.Location = New System.Drawing.Point(581, 503)
-        DireccionLabel.Name = "DireccionLabel"
-        DireccionLabel.Size = New System.Drawing.Size(55, 13)
-        DireccionLabel.TabIndex = 622
-        DireccionLabel.Text = "Direccion:"
-        '
         'DireccionTextBoxSD
         '
         Me.DireccionTextBoxSD.BackColor = System.Drawing.Color.White
         Me.DireccionTextBoxSD.FormatInput = UserWindowsControlLibrary.TextBoxSD.InputFormat.InputString
-        Me.DireccionTextBoxSD.Location = New System.Drawing.Point(708, 500)
+        Me.DireccionTextBoxSD.Location = New System.Drawing.Point(503, 26)
         Me.DireccionTextBoxSD.Name = "DireccionTextBoxSD"
         Me.DireccionTextBoxSD.NumberDecimal = 0
-        Me.DireccionTextBoxSD.Size = New System.Drawing.Size(121, 20)
+        Me.DireccionTextBoxSD.Size = New System.Drawing.Size(161, 23)
         Me.DireccionTextBoxSD.TabEnter = True
         Me.DireccionTextBoxSD.TabIndex = 623
         Me.DireccionTextBoxSD.TypeField = UserWindowsControlLibrary.TextBoxSD.TiposDeCampo.Personalizado
         Me.DireccionTextBoxSD.ValidField = False
-        '
-        'EstadoCivilLabel
-        '
-        EstadoCivilLabel.AutoSize = True
-        EstadoCivilLabel.Location = New System.Drawing.Point(581, 529)
-        EstadoCivilLabel.Name = "EstadoCivilLabel"
-        EstadoCivilLabel.Size = New System.Drawing.Size(65, 13)
-        EstadoCivilLabel.TabIndex = 624
-        EstadoCivilLabel.Text = "Estado Civil:"
         '
         'EstadoCivilComboBoxSD
         '
@@ -1191,13 +1282,13 @@ Partial Class FrmAdminisiones
         Me.EstadoCivilComboBoxSD.Conditions = Nothing
         Me.EstadoCivilComboBoxSD.DataBase = "DbRecursosHumanos"
         Me.EstadoCivilComboBoxSD.FormattingEnabled = True
-        Me.EstadoCivilComboBoxSD.Location = New System.Drawing.Point(708, 526)
+        Me.EstadoCivilComboBoxSD.Location = New System.Drawing.Point(670, 25)
         Me.EstadoCivilComboBoxSD.Name = "EstadoCivilComboBoxSD"
         Me.EstadoCivilComboBoxSD.NumberOfZeros = 0
         Me.EstadoCivilComboBoxSD.Objects = UserWindowsControlLibrary.ComboBoxSD.TypeObjects.Table
         Me.EstadoCivilComboBoxSD.OrderBy = Nothing
         Me.EstadoCivilComboBoxSD.ShowFindDialog = True
-        Me.EstadoCivilComboBoxSD.Size = New System.Drawing.Size(121, 21)
+        Me.EstadoCivilComboBoxSD.Size = New System.Drawing.Size(161, 24)
         Me.EstadoCivilComboBoxSD.TabEnter = True
         Me.EstadoCivilComboBoxSD.TabIndex = 625
         Me.EstadoCivilComboBoxSD.Table = Nothing
@@ -1205,15 +1296,6 @@ Partial Class FrmAdminisiones
         Me.EstadoCivilComboBoxSD.TypeField = UserWindowsControlLibrary.ComboBoxSD.TiposDeCampo.Personalizado
         Me.EstadoCivilComboBoxSD.User = Nothing
         Me.EstadoCivilComboBoxSD.ValidField = False
-        '
-        'DepartamentoEmpresaLabel
-        '
-        DepartamentoEmpresaLabel.AutoSize = True
-        DepartamentoEmpresaLabel.Location = New System.Drawing.Point(581, 556)
-        DepartamentoEmpresaLabel.Name = "DepartamentoEmpresaLabel"
-        DepartamentoEmpresaLabel.Size = New System.Drawing.Size(121, 13)
-        DepartamentoEmpresaLabel.TabIndex = 626
-        DepartamentoEmpresaLabel.Text = "Departamento Empresa:"
         '
         'DepartamentoEmpresaComboBoxSD
         '
@@ -1226,7 +1308,7 @@ Partial Class FrmAdminisiones
         Me.DepartamentoEmpresaComboBoxSD.Conditions = Nothing
         Me.DepartamentoEmpresaComboBoxSD.DataBase = "DbRecursosHumanos"
         Me.DepartamentoEmpresaComboBoxSD.FormattingEnabled = True
-        Me.DepartamentoEmpresaComboBoxSD.Location = New System.Drawing.Point(708, 553)
+        Me.DepartamentoEmpresaComboBoxSD.Location = New System.Drawing.Point(735, 360)
         Me.DepartamentoEmpresaComboBoxSD.Name = "DepartamentoEmpresaComboBoxSD"
         Me.DepartamentoEmpresaComboBoxSD.NumberOfZeros = 0
         Me.DepartamentoEmpresaComboBoxSD.Objects = UserWindowsControlLibrary.ComboBoxSD.TypeObjects.Table
@@ -1241,52 +1323,25 @@ Partial Class FrmAdminisiones
         Me.DepartamentoEmpresaComboBoxSD.User = Nothing
         Me.DepartamentoEmpresaComboBoxSD.ValidField = False
         '
-        'FechaDeIngresoLabel
-        '
-        FechaDeIngresoLabel.AutoSize = True
-        FechaDeIngresoLabel.Location = New System.Drawing.Point(581, 583)
-        FechaDeIngresoLabel.Name = "FechaDeIngresoLabel"
-        FechaDeIngresoLabel.Size = New System.Drawing.Size(95, 13)
-        FechaDeIngresoLabel.TabIndex = 628
-        FechaDeIngresoLabel.Text = "Fecha De Ingreso:"
-        '
         'FechaDeIngresoMaskedTextBoxSD
         '
         Me.FechaDeIngresoMaskedTextBoxSD.BackColor = System.Drawing.Color.White
-        Me.FechaDeIngresoMaskedTextBoxSD.Location = New System.Drawing.Point(708, 580)
+        Me.FechaDeIngresoMaskedTextBoxSD.Location = New System.Drawing.Point(735, 387)
         Me.FechaDeIngresoMaskedTextBoxSD.Name = "FechaDeIngresoMaskedTextBoxSD"
         Me.FechaDeIngresoMaskedTextBoxSD.Size = New System.Drawing.Size(121, 20)
         Me.FechaDeIngresoMaskedTextBoxSD.TabEnter = True
         Me.FechaDeIngresoMaskedTextBoxSD.TabIndex = 629
         Me.FechaDeIngresoMaskedTextBoxSD.TypeField = UserWindowsControlLibrary.MaskedTextBoxSD.TiposDeCampo.Personalizado
         '
-        'FechaDeEgresoLabel
-        '
-        FechaDeEgresoLabel.AutoSize = True
-        FechaDeEgresoLabel.Location = New System.Drawing.Point(581, 609)
-        FechaDeEgresoLabel.Name = "FechaDeEgresoLabel"
-        FechaDeEgresoLabel.Size = New System.Drawing.Size(93, 13)
-        FechaDeEgresoLabel.TabIndex = 630
-        FechaDeEgresoLabel.Text = "Fecha De Egreso:"
-        '
         'FechaDeEgresoMaskedTextBoxSD
         '
         Me.FechaDeEgresoMaskedTextBoxSD.BackColor = System.Drawing.Color.White
-        Me.FechaDeEgresoMaskedTextBoxSD.Location = New System.Drawing.Point(708, 606)
+        Me.FechaDeEgresoMaskedTextBoxSD.Location = New System.Drawing.Point(735, 413)
         Me.FechaDeEgresoMaskedTextBoxSD.Name = "FechaDeEgresoMaskedTextBoxSD"
         Me.FechaDeEgresoMaskedTextBoxSD.Size = New System.Drawing.Size(121, 20)
         Me.FechaDeEgresoMaskedTextBoxSD.TabEnter = True
         Me.FechaDeEgresoMaskedTextBoxSD.TabIndex = 631
         Me.FechaDeEgresoMaskedTextBoxSD.TypeField = UserWindowsControlLibrary.MaskedTextBoxSD.TiposDeCampo.Personalizado
-        '
-        'PlanillaLabel
-        '
-        PlanillaLabel.AutoSize = True
-        PlanillaLabel.Location = New System.Drawing.Point(581, 635)
-        PlanillaLabel.Name = "PlanillaLabel"
-        PlanillaLabel.Size = New System.Drawing.Size(43, 13)
-        PlanillaLabel.TabIndex = 632
-        PlanillaLabel.Text = "Planilla:"
         '
         'PlanillaComboBoxSD
         '
@@ -1299,7 +1354,7 @@ Partial Class FrmAdminisiones
         Me.PlanillaComboBoxSD.Conditions = Nothing
         Me.PlanillaComboBoxSD.DataBase = "DbRecursosHumanos"
         Me.PlanillaComboBoxSD.FormattingEnabled = True
-        Me.PlanillaComboBoxSD.Location = New System.Drawing.Point(708, 632)
+        Me.PlanillaComboBoxSD.Location = New System.Drawing.Point(735, 439)
         Me.PlanillaComboBoxSD.Name = "PlanillaComboBoxSD"
         Me.PlanillaComboBoxSD.NumberOfZeros = 0
         Me.PlanillaComboBoxSD.Objects = UserWindowsControlLibrary.ComboBoxSD.TypeObjects.Table
@@ -1314,15 +1369,6 @@ Partial Class FrmAdminisiones
         Me.PlanillaComboBoxSD.User = Nothing
         Me.PlanillaComboBoxSD.ValidField = False
         '
-        'TipoDePlanillaLabel
-        '
-        TipoDePlanillaLabel.AutoSize = True
-        TipoDePlanillaLabel.Location = New System.Drawing.Point(581, 662)
-        TipoDePlanillaLabel.Name = "TipoDePlanillaLabel"
-        TipoDePlanillaLabel.Size = New System.Drawing.Size(84, 13)
-        TipoDePlanillaLabel.TabIndex = 634
-        TipoDePlanillaLabel.Text = "Tipo De Planilla:"
-        '
         'TipoDePlanillaComboBoxSD
         '
         Me.TipoDePlanillaComboBoxSD.AddAll = False
@@ -1334,7 +1380,7 @@ Partial Class FrmAdminisiones
         Me.TipoDePlanillaComboBoxSD.Conditions = Nothing
         Me.TipoDePlanillaComboBoxSD.DataBase = "DbRecursosHumanos"
         Me.TipoDePlanillaComboBoxSD.FormattingEnabled = True
-        Me.TipoDePlanillaComboBoxSD.Location = New System.Drawing.Point(708, 659)
+        Me.TipoDePlanillaComboBoxSD.Location = New System.Drawing.Point(735, 466)
         Me.TipoDePlanillaComboBoxSD.Name = "TipoDePlanillaComboBoxSD"
         Me.TipoDePlanillaComboBoxSD.NumberOfZeros = 0
         Me.TipoDePlanillaComboBoxSD.Objects = UserWindowsControlLibrary.ComboBoxSD.TypeObjects.Table
@@ -1349,66 +1395,40 @@ Partial Class FrmAdminisiones
         Me.TipoDePlanillaComboBoxSD.User = Nothing
         Me.TipoDePlanillaComboBoxSD.ValidField = False
         '
-        'CatorcenalLabel
-        '
-        CatorcenalLabel.AutoSize = True
-        CatorcenalLabel.Location = New System.Drawing.Point(581, 689)
-        CatorcenalLabel.Name = "CatorcenalLabel"
-        CatorcenalLabel.Size = New System.Drawing.Size(61, 13)
-        CatorcenalLabel.TabIndex = 636
-        CatorcenalLabel.Text = "Catorcenal:"
-        '
         'CatorcenalTextBox
         '
-        Me.CatorcenalTextBox.Location = New System.Drawing.Point(708, 686)
+        Me.CatorcenalTextBox.Location = New System.Drawing.Point(735, 493)
         Me.CatorcenalTextBox.Name = "CatorcenalTextBox"
         Me.CatorcenalTextBox.Size = New System.Drawing.Size(121, 20)
         Me.CatorcenalTextBox.TabIndex = 637
         '
-        'IsActivoLabel
-        '
-        IsActivoLabel.AutoSize = True
-        IsActivoLabel.Location = New System.Drawing.Point(581, 717)
-        IsActivoLabel.Name = "IsActivoLabel"
-        IsActivoLabel.Size = New System.Drawing.Size(50, 13)
-        IsActivoLabel.TabIndex = 638
-        IsActivoLabel.Text = "is Activo:"
-        '
         'IsActivoCheckBox
         '
-        Me.IsActivoCheckBox.Location = New System.Drawing.Point(708, 712)
+        Me.IsActivoCheckBox.Location = New System.Drawing.Point(735, 519)
         Me.IsActivoCheckBox.Name = "IsActivoCheckBox"
         Me.IsActivoCheckBox.Size = New System.Drawing.Size(121, 24)
         Me.IsActivoCheckBox.TabIndex = 639
         Me.IsActivoCheckBox.Text = "CheckBox1"
         Me.IsActivoCheckBox.UseVisualStyleBackColor = True
         '
-        'IDTiposDeTelefonoLabel
-        '
-        IDTiposDeTelefonoLabel.AutoSize = True
-        IDTiposDeTelefonoLabel.Location = New System.Drawing.Point(853, 213)
-        IDTiposDeTelefonoLabel.Name = "IDTiposDeTelefonoLabel"
-        IDTiposDeTelefonoLabel.Size = New System.Drawing.Size(109, 13)
-        IDTiposDeTelefonoLabel.TabIndex = 639
-        IDTiposDeTelefonoLabel.Text = "IDTipos De Telefono:"
-        '
         'IDTiposDeTelefonoComboBoxSD
         '
         Me.IDTiposDeTelefonoComboBoxSD.AddAll = False
         Me.IDTiposDeTelefonoComboBoxSD.AlternativeQuery = Nothing
+        Me.IDTiposDeTelefonoComboBoxSD.BackColor = System.Drawing.Color.White
         Me.IDTiposDeTelefonoComboBoxSD.ColumnDisplay = Nothing
         Me.IDTiposDeTelefonoComboBoxSD.ColumnValue = Nothing
         Me.IDTiposDeTelefonoComboBoxSD.ConcatenarID = True
         Me.IDTiposDeTelefonoComboBoxSD.Conditions = Nothing
         Me.IDTiposDeTelefonoComboBoxSD.DataBase = "DbRecursosHumanos"
         Me.IDTiposDeTelefonoComboBoxSD.FormattingEnabled = True
-        Me.IDTiposDeTelefonoComboBoxSD.Location = New System.Drawing.Point(968, 210)
+        Me.IDTiposDeTelefonoComboBoxSD.Location = New System.Drawing.Point(141, 85)
         Me.IDTiposDeTelefonoComboBoxSD.Name = "IDTiposDeTelefonoComboBoxSD"
         Me.IDTiposDeTelefonoComboBoxSD.NumberOfZeros = 0
         Me.IDTiposDeTelefonoComboBoxSD.Objects = UserWindowsControlLibrary.ComboBoxSD.TypeObjects.Table
         Me.IDTiposDeTelefonoComboBoxSD.OrderBy = Nothing
         Me.IDTiposDeTelefonoComboBoxSD.ShowFindDialog = True
-        Me.IDTiposDeTelefonoComboBoxSD.Size = New System.Drawing.Size(121, 21)
+        Me.IDTiposDeTelefonoComboBoxSD.Size = New System.Drawing.Size(121, 24)
         Me.IDTiposDeTelefonoComboBoxSD.TabEnter = True
         Me.IDTiposDeTelefonoComboBoxSD.TabIndex = 640
         Me.IDTiposDeTelefonoComboBoxSD.Table = Nothing
@@ -1417,32 +1437,24 @@ Partial Class FrmAdminisiones
         Me.IDTiposDeTelefonoComboBoxSD.User = Nothing
         Me.IDTiposDeTelefonoComboBoxSD.ValidField = False
         '
-        'NumeroTelefonoLabel
-        '
-        NumeroTelefonoLabel.AutoSize = True
-        NumeroTelefonoLabel.Location = New System.Drawing.Point(853, 240)
-        NumeroTelefonoLabel.Name = "NumeroTelefonoLabel"
-        NumeroTelefonoLabel.Size = New System.Drawing.Size(92, 13)
-        NumeroTelefonoLabel.TabIndex = 641
-        NumeroTelefonoLabel.Text = "Numero Telefono:"
-        '
         'NumeroTelefonoComboBoxSD
         '
         Me.NumeroTelefonoComboBoxSD.AddAll = False
         Me.NumeroTelefonoComboBoxSD.AlternativeQuery = Nothing
+        Me.NumeroTelefonoComboBoxSD.BackColor = System.Drawing.Color.White
         Me.NumeroTelefonoComboBoxSD.ColumnDisplay = Nothing
         Me.NumeroTelefonoComboBoxSD.ColumnValue = Nothing
         Me.NumeroTelefonoComboBoxSD.ConcatenarID = True
         Me.NumeroTelefonoComboBoxSD.Conditions = Nothing
         Me.NumeroTelefonoComboBoxSD.DataBase = "DbRecursosHumanos"
         Me.NumeroTelefonoComboBoxSD.FormattingEnabled = True
-        Me.NumeroTelefonoComboBoxSD.Location = New System.Drawing.Point(968, 237)
+        Me.NumeroTelefonoComboBoxSD.Location = New System.Drawing.Point(406, 77)
         Me.NumeroTelefonoComboBoxSD.Name = "NumeroTelefonoComboBoxSD"
         Me.NumeroTelefonoComboBoxSD.NumberOfZeros = 0
         Me.NumeroTelefonoComboBoxSD.Objects = UserWindowsControlLibrary.ComboBoxSD.TypeObjects.Table
         Me.NumeroTelefonoComboBoxSD.OrderBy = Nothing
         Me.NumeroTelefonoComboBoxSD.ShowFindDialog = True
-        Me.NumeroTelefonoComboBoxSD.Size = New System.Drawing.Size(121, 21)
+        Me.NumeroTelefonoComboBoxSD.Size = New System.Drawing.Size(121, 24)
         Me.NumeroTelefonoComboBoxSD.TabEnter = True
         Me.NumeroTelefonoComboBoxSD.TabIndex = 642
         Me.NumeroTelefonoComboBoxSD.Table = Nothing
@@ -1493,17 +1505,9 @@ Partial Class FrmAdminisiones
         Me.Panel1.Size = New System.Drawing.Size(837, 104)
         Me.Panel1.TabIndex = 0
         '
-        'ApellidoLabel
-        '
-        ApellidoLabel.AutoSize = True
-        ApellidoLabel.Location = New System.Drawing.Point(336, 5)
-        ApellidoLabel.Name = "ApellidoLabel"
-        ApellidoLabel.Size = New System.Drawing.Size(136, 17)
-        ApellidoLabel.TabIndex = 599
-        ApellidoLabel.Text = "Apellido De Casada:"
-        '
         'ApellidoTextBoxSD
         '
+        Me.ApellidoTextBoxSD.BackColor = System.Drawing.Color.White
         Me.ApellidoTextBoxSD.FormatInput = UserWindowsControlLibrary.TextBoxSD.InputFormat.InputString
         Me.ApellidoTextBoxSD.Location = New System.Drawing.Point(336, 26)
         Me.ApellidoTextBoxSD.Name = "ApellidoTextBoxSD"
@@ -1520,7 +1524,7 @@ Partial Class FrmAdminisiones
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(2, 134)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(843, 124)
+        Me.GroupBox1.Size = New System.Drawing.Size(843, 144)
         Me.GroupBox1.TabIndex = 644
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "DATOS GENERALES"
@@ -1529,11 +1533,25 @@ Partial Class FrmAdminisiones
         '
         Me.Panel2.AutoScroll = True
         Me.Panel2.BackColor = System.Drawing.Color.Transparent
+        Me.Panel2.Controls.Add(Me.DepartamentoComboBoxSD)
+        Me.Panel2.Controls.Add(DepartamentoLabel)
+        Me.Panel2.Controls.Add(Me.MunicipioComboBoxSD)
+        Me.Panel2.Controls.Add(MunicipioLabel)
+        Me.Panel2.Controls.Add(NumeroTelefonoLabel)
+        Me.Panel2.Controls.Add(Me.IDTiposDeTelefonoComboBoxSD)
+        Me.Panel2.Controls.Add(Me.NumeroTelefonoComboBoxSD)
+        Me.Panel2.Controls.Add(IDTiposDeTelefonoLabel)
+        Me.Panel2.Controls.Add(Me.ComunidadComboBoxSD)
+        Me.Panel2.Controls.Add(ComunidadLabel)
+        Me.Panel2.Controls.Add(Me.DireccionTextBoxSD)
+        Me.Panel2.Controls.Add(DireccionLabel)
+        Me.Panel2.Controls.Add(Me.EstadoCivilComboBoxSD)
+        Me.Panel2.Controls.Add(EstadoCivilLabel)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel2.Location = New System.Drawing.Point(3, 17)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(837, 104)
+        Me.Panel2.Size = New System.Drawing.Size(837, 124)
         Me.Panel2.TabIndex = 0
         '
         'FrmAdminisiones
@@ -1542,12 +1560,10 @@ Partial Class FrmAdminisiones
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1158, 803)
+        Me.Controls.Add(Me.txtDireccion)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBoxDatosDeIndentificacion)
-        Me.Controls.Add(IDTiposDeTelefonoLabel)
-        Me.Controls.Add(Me.IDTiposDeTelefonoComboBoxSD)
-        Me.Controls.Add(NumeroTelefonoLabel)
-        Me.Controls.Add(Me.NumeroTelefonoComboBoxSD)
         Me.Controls.Add(NumeroDeAsociadoLabel)
         Me.Controls.Add(Me.NumeroDeAsociadoTextBoxSD)
         Me.Controls.Add(NumeroDeEmpleadoLabel)
@@ -1560,16 +1576,6 @@ Partial Class FrmAdminisiones
         Me.Controls.Add(Me.NombreCompletoTextBoxSD)
         Me.Controls.Add(LugarDeNacimientoLabel)
         Me.Controls.Add(Me.LugarDeNacimientoTextBoxSD)
-        Me.Controls.Add(DepartamentoLabel)
-        Me.Controls.Add(Me.DepartamentoComboBoxSD)
-        Me.Controls.Add(MunicipioLabel)
-        Me.Controls.Add(Me.MunicipioComboBoxSD)
-        Me.Controls.Add(ComunidadLabel)
-        Me.Controls.Add(Me.ComunidadComboBoxSD)
-        Me.Controls.Add(DireccionLabel)
-        Me.Controls.Add(Me.DireccionTextBoxSD)
-        Me.Controls.Add(EstadoCivilLabel)
-        Me.Controls.Add(Me.EstadoCivilComboBoxSD)
         Me.Controls.Add(DepartamentoEmpresaLabel)
         Me.Controls.Add(Me.DepartamentoEmpresaComboBoxSD)
         Me.Controls.Add(FechaDeIngresoLabel)
@@ -1597,8 +1603,6 @@ Partial Class FrmAdminisiones
         Me.Controls.Add(Me.txtTelefono)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.txtDireccion)
         Me.Controls.Add(Me.txtNombreEmpleado)
         Me.Controls.Add(Me.grbBeneficiarios)
         Me.Controls.Add(Me.cmdReporte)
@@ -1618,6 +1622,8 @@ Partial Class FrmAdminisiones
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
